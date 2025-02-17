@@ -9,7 +9,7 @@ genai.configure(api_key=os.environ.get("GEN_API"))
 phone_id=os.environ.get("PHONE_ID")
 phone=os.environ.get("PHONE_NUMBER")
 name="Wahyu Rachmatia" #The bot will consider this person as its owner or creator
-bot_name="wayyy Bot" #This will be the name of your bot, eg: "Hello I am Astro Bot"
+bot_name="Wayyy" #This will be the name of your bot, eg: "Hello I am Astro Bot"
 model_name="gemini-1.5-flash-latest" #Switch to "gemini-1.0-pro" or any free model, if "gemini-1.5-flash" becomes paid in future.
 
 app=Flask(__name__)
